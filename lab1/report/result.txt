@@ -1,0 +1,288 @@
+(.YatPC) root@DESKTOP-RUEFJE0:/home/billyfu/YatPC/lab1# mpicxx matmul.cpp -o matmul -lstdc++
+(.YatPC) root@DESKTOP-RUEFJE0:/home/billyfu/YatPC/lab1# mpirun --allow-run-as-root -np 1 ./matmul
+Size:  128 | Runs:   8.07ms   6.79ms   8.03ms   8.35ms   8.20ms | Avg:   7.89ms
+Size:  256 | Runs:  89.62ms  80.83ms  62.17ms  74.65ms  73.46ms | Avg:  76.15ms
+Size:  384 | Runs: 339.87ms 284.09ms 282.55ms 293.26ms 250.72ms | Avg: 290.10ms
+Size:  512 | Runs: 1119.78ms 1200.69ms 1115.52ms 1435.58ms 1648.16ms | Avg: 1303.95ms
+Size:  640 | Runs: 2976.24ms 2599.94ms 2826.61ms 2480.89ms 2380.78ms | Avg: 2652.89ms
+Size:  768 | Runs: 5729.19ms 6475.42ms 7535.09ms 7516.62ms 7326.96ms | Avg: 6916.65ms
+Size:  896 | Runs: 9842.24ms 8341.01ms 7462.65ms 7599.75ms 8800.67ms | Avg: 8409.26ms
+Size: 1024 | Runs: 19528.65ms 13874.90ms 13459.58ms 17002.78ms 15258.27ms | Avg: 15824.84ms
+Size: 1152 | Runs: 17330.62ms 18000.48ms 19846.46ms 19552.83ms 19020.84ms | Avg: 18750.25ms
+Size: 1280 | Runs: 29337.39ms 33100.92ms 34756.26ms 33881.28ms 36983.75ms | Avg: 33611.92ms
+Size: 1408 | Runs: 38841.00ms 42566.22ms 42545.09ms 39202.55ms 39557.91ms | Avg: 40542.55ms
+Size: 1536 | Runs: 60680.93ms 74684.91ms 74748.86ms 70824.55ms 72627.19ms | Avg: 70713.29ms
+Size: 1664 | Runs: 75408.61ms 74832.21ms 74725.99ms 71997.46ms 70629.48ms | Avg: 73518.75ms
+Size: 1792 | Runs: 93386.09ms 100518.62ms 103210.41ms 104154.85ms 101045.16ms | Avg: 100463.03ms
+Size: 1920 | Runs: 114587.89ms 118189.45ms 122216.95ms 117857.19ms 119522.41ms | Avg: 118474.78ms
+Size: 2048 | Runs: 169693.46ms 176298.62ms 200181.28ms 150481.89ms 166386.99ms | Avg: 172608.45ms
+
+(.YatPC) root@DESKTOP-RUEFJE0:/home/billyfu/YatPC/lab1# mpirun --allow-run-as-root -np 2 ./matmul
+Size:  128 | Runs:   7.11ms   6.08ms   5.01ms   4.77ms   8.10ms | Avg:   6.21ms
+Size:  256 | Runs:  65.87ms  42.21ms  54.69ms  46.54ms  46.15ms | Avg:  51.09ms
+Size:  384 | Runs: 181.74ms 191.19ms 159.16ms 170.05ms 159.64ms | Avg: 172.36ms
+Size:  512 | Runs: 731.99ms 690.61ms 562.58ms 587.60ms 633.37ms | Avg: 641.23ms
+Size:  640 | Runs: 1370.64ms 1309.77ms 1480.09ms 1401.46ms 1363.76ms | Avg: 1385.15ms
+Size:  768 | Runs: 3262.13ms 3421.04ms 3171.30ms 3126.59ms 3322.79ms | Avg: 3260.77ms
+Size:  896 | Runs: 3995.06ms 4273.19ms 4266.66ms 4321.16ms 4133.26ms | Avg: 4197.86ms
+Size: 1024 | Runs: 7987.34ms 8278.59ms 7027.26ms 7896.90ms 8309.46ms | Avg: 7899.91ms
+Size: 1152 | Runs: 9878.13ms 10804.13ms 10603.84ms 10208.34ms 10247.86ms | Avg: 10348.46ms
+Size: 1280 | Runs: 16808.97ms 17761.69ms 17651.34ms 18260.55ms 18454.16ms | Avg: 17787.34ms
+Size: 1408 | Runs: 20744.64ms 21668.00ms 25073.60ms 22384.82ms 22047.81ms | Avg: 22383.78ms
+Size: 1536 | Runs: 36698.17ms 35166.71ms 35044.69ms 34230.49ms 34579.03ms | Avg: 35143.82ms
+Size: 1664 | Runs: 34765.78ms 35002.37ms 35318.54ms 35516.03ms 34965.06ms | Avg: 35113.56ms
+Size: 1792 | Runs: 47870.19ms 48491.69ms 48311.98ms 48243.50ms 48891.96ms | Avg: 48361.86ms
+Size: 1920 | Runs: 57281.85ms 57402.37ms 56672.42ms 57424.86ms 57619.27ms | Avg: 57280.15ms
+Size: 2048 | Runs: 122818.55ms 96570.16ms 169907.10ms 181737.13ms 155635.10ms | Avg: 145333.61ms
+
+(.YatPC) root@DESKTOP-RUEFJE0:/home/billyfu/YatPC/lab1# mpirun --allow-run-as-root -np 3 ./matmul
+Size:  128 | Runs:   3.77ms   2.70ms   2.68ms   2.50ms   2.60ms | Avg:   2.85ms
+Size:  256 | Runs:  40.09ms  21.58ms  29.94ms  30.13ms  22.31ms | Avg:  28.81ms
+Size:  384 | Runs: 119.53ms  84.96ms  86.70ms  97.89ms  86.83ms | Avg:  95.18ms
+Size:  512 | Runs: 361.66ms 411.82ms 408.31ms 329.61ms 445.29ms | Avg: 391.34ms
+Size:  640 | Runs: 850.43ms 857.47ms 714.54ms 734.19ms 790.57ms | Avg: 789.44ms
+Size:  768 | Runs: 1983.32ms 1894.18ms 1775.84ms 2042.78ms 1961.94ms | Avg: 1931.61ms
+Size:  896 | Runs: 3142.70ms 2755.03ms 2546.64ms 2715.93ms 2562.24ms | Avg: 2744.51ms
+Size: 1024 | Runs: 5059.64ms 4538.34ms 4727.55ms 4883.56ms 4687.93ms | Avg: 4779.40ms
+Size: 1152 | Runs: 5900.50ms 5884.09ms 6186.85ms 6032.29ms 6201.52ms | Avg: 6041.05ms
+Size: 1280 | Runs: 10612.74ms 10922.97ms 11494.58ms 11250.80ms 11034.28ms | Avg: 11063.08ms
+Size: 1408 | Runs: 12703.01ms 13956.57ms 14520.32ms 14225.37ms 13491.93ms | Avg: 13779.44ms
+Size: 1536 | Runs: 25347.08ms 25299.67ms 25378.48ms 24589.83ms 24688.19ms | Avg: 25060.65ms
+Size: 1664 | Runs: 24919.40ms 27151.53ms 26372.24ms 25511.69ms 24947.16ms | Avg: 25780.40ms
+Size: 1792 | Runs: 35026.40ms 36604.24ms 34580.25ms 35961.50ms 35349.43ms | Avg: 35504.36ms
+Size: 1920 | Runs: 42303.55ms 41816.66ms 41655.94ms 42019.94ms 42337.41ms | Avg: 42026.70ms
+Size: 2048 | Runs: 72114.38ms 80083.07ms 64263.54ms 69400.46ms 71477.11ms | Avg: 71467.71ms
+
+(.YatPC) root@DESKTOP-RUEFJE0:/home/billyfu/YatPC/lab1# mpirun --allow-run-as-root -np 4 ./matmul
+Size:  128 | Runs:   2.45ms   2.16ms   2.02ms   3.03ms   1.90ms | Avg:   2.31ms
+Size:  256 | Runs:  25.37ms  28.52ms  25.95ms  33.30ms  29.93ms | Avg:  28.61ms
+Size:  384 | Runs:  77.45ms  80.71ms  81.87ms  78.71ms  81.13ms | Avg:  79.97ms
+Size:  512 | Runs: 327.93ms 314.86ms 363.54ms 327.78ms 334.31ms | Avg: 333.68ms
+Size:  640 | Runs: 734.83ms 715.54ms 609.62ms 610.44ms 719.58ms | Avg: 678.00ms
+Size:  768 | Runs: 1591.39ms 1569.69ms 1535.58ms 1631.61ms 1623.02ms | Avg: 1590.26ms
+Size:  896 | Runs: 2270.50ms 2086.69ms 2300.38ms 2139.62ms 2118.62ms | Avg: 2183.16ms
+Size: 1024 | Runs: 4167.68ms 3706.54ms 4053.85ms 3958.60ms 3921.20ms | Avg: 3961.57ms
+Size: 1152 | Runs: 5437.27ms 6070.98ms 6020.34ms 5994.61ms 5458.32ms | Avg: 5796.30ms
+Size: 1280 | Runs: 8896.27ms 8512.04ms 9025.57ms 9250.83ms 11105.33ms | Avg: 9358.01ms
+Size: 1408 | Runs: 10717.77ms 10650.56ms 10257.80ms 10426.29ms 10407.76ms | Avg: 10492.04ms
+Size: 1536 | Runs: 18739.53ms 21787.43ms 18893.52ms 21710.00ms 22331.24ms | Avg: 20692.34ms
+Size: 1664 | Runs: 18651.10ms 22103.21ms 20031.47ms 18699.62ms 20514.20ms | Avg: 19999.92ms
+Size: 1792 | Runs: 26292.15ms 29216.31ms 26823.88ms 27966.16ms 28287.70ms | Avg: 27717.24ms
+Size: 1920 | Runs: 32605.05ms 30905.77ms 31155.22ms 29288.18ms 29332.56ms | Avg: 30657.36ms
+Size: 2048 | Runs: 57638.95ms 52663.18ms 52390.59ms 54811.77ms 74584.89ms | Avg: 58417.88ms
+
+(.YatPC) root@DESKTOP-RUEFJE0:/home/billyfu/YatPC/lab1# mpirun --allow-run-as-root -np 5 ./matmul
+Size:  128 | Runs:   2.05ms   1.75ms   1.54ms   1.62ms   1.56ms | Avg:   1.71ms
+Size:  256 | Runs:  29.42ms  15.69ms  19.65ms  26.16ms  25.16ms | Avg:  23.22ms
+Size:  384 | Runs:  91.02ms  83.79ms  81.28ms  92.25ms  70.53ms | Avg:  83.77ms
+Size:  512 | Runs: 276.17ms 277.17ms 309.14ms 304.52ms 254.27ms | Avg: 284.25ms
+Size:  640 | Runs: 853.43ms 667.97ms 545.96ms 765.29ms 641.27ms | Avg: 694.78ms
+Size:  768 | Runs: 1512.62ms 1638.61ms 1621.90ms 1632.83ms 1653.48ms | Avg: 1611.89ms
+Size:  896 | Runs: 2272.14ms 2119.04ms 2207.45ms 2223.77ms 2012.18ms | Avg: 2166.92ms
+Size: 1024 | Runs: 3844.65ms 4787.70ms 3942.40ms 3941.83ms 4239.22ms | Avg: 4151.16ms
+Size: 1152 | Runs: 5573.54ms 4741.96ms 5005.63ms 5305.95ms 5197.57ms | Avg: 5164.93ms
+Size: 1280 | Runs: 8071.34ms 7881.20ms 8124.88ms 8400.48ms 8533.97ms | Avg: 8202.37ms
+Size: 1408 | Runs: 9514.37ms 10840.52ms 12372.57ms 10605.26ms 10336.25ms | Avg: 10733.79ms
+Size: 1536 | Runs: 17367.53ms 17025.04ms 17793.13ms 17651.78ms 17132.67ms | Avg: 17394.03ms
+Size: 1664 | Runs: 17602.02ms 17760.89ms 19870.70ms 17301.68ms 17130.45ms | Avg: 17933.15ms
+Size: 1792 | Runs: 26116.71ms 25163.69ms 24557.17ms 24490.07ms 23842.89ms | Avg: 24834.11ms
+Size: 1920 | Runs: 27167.26ms 27630.89ms 27901.01ms 27650.56ms 29723.38ms | Avg: 28014.62ms
+Size: 2048 | Runs: 47071.38ms 46737.85ms 48359.55ms 46059.75ms 46430.46ms | Avg: 46931.80ms
+
+(.YatPC) root@DESKTOP-RUEFJE0:/home/billyfu/YatPC/lab1# mpirun --allow-run-as-root -np 6 ./matmul
+Size:  128 | Runs:   2.46ms   2.45ms   2.38ms   2.31ms   2.49ms | Avg:   2.42ms
+Size:  256 | Runs:  25.01ms  23.09ms  22.61ms  21.15ms  22.12ms | Avg:  22.80ms
+Size:  384 | Runs:  78.06ms  83.19ms  75.24ms  58.83ms  65.35ms | Avg:  72.13ms
+Size:  512 | Runs: 233.21ms 245.05ms 323.72ms 272.10ms 344.79ms | Avg: 283.77ms
+Size:  640 | Runs: 542.32ms 569.81ms 599.93ms 609.69ms 608.93ms | Avg: 586.13ms
+Size:  768 | Runs: 1278.80ms 1338.57ms 1320.20ms 1283.74ms 1474.82ms | Avg: 1339.23ms
+Size:  896 | Runs: 1790.00ms 1811.86ms 1773.79ms 1807.83ms 1810.20ms | Avg: 1798.74ms
+Size: 1024 | Runs: 3410.05ms 3991.60ms 3325.75ms 3526.15ms 3363.79ms | Avg: 3523.47ms
+Size: 1152 | Runs: 4354.30ms 4433.55ms 4243.27ms 4356.53ms 4147.06ms | Avg: 4306.94ms
+Size: 1280 | Runs: 7925.76ms 8178.00ms 7644.98ms 7329.59ms 7348.49ms | Avg: 7685.36ms
+Size: 1408 | Runs: 9101.81ms 9315.09ms 9270.15ms 9183.19ms 9305.35ms | Avg: 9235.12ms
+Size: 1536 | Runs: 15287.73ms 14729.51ms 14907.85ms 15419.63ms 15595.64ms | Avg: 15188.07ms
+Size: 1664 | Runs: 15467.69ms 15479.46ms 17871.47ms 17431.57ms 14699.85ms | Avg: 16190.01ms
+Size: 1792 | Runs: 28634.73ms 21396.04ms 27762.17ms 22700.63ms 22542.46ms | Avg: 24607.20ms
+Size: 1920 | Runs: 27004.51ms 28532.88ms 29033.94ms 28093.36ms 27863.62ms | Avg: 28105.66ms
+Size: 2048 | Runs: 43831.58ms 80930.01ms 80130.51ms 83238.74ms 83219.69ms | Avg: 74270.11ms
+
+(.YatPC) root@DESKTOP-RUEFJE0:/home/billyfu/YatPC/lab1# mpirun --allow-run-as-root -np 7 ./matmul
+Size:  128 | Runs:   2.57ms   4.15ms   1.98ms   1.91ms   1.86ms | Avg:   2.49ms
+Size:  256 | Runs:  19.92ms  18.71ms  18.32ms  22.20ms  20.35ms | Avg:  19.90ms
+Size:  384 | Runs:  61.76ms  86.88ms  65.73ms  69.45ms  70.38ms | Avg:  70.84ms
+Size:  512 | Runs: 333.29ms 238.02ms 289.05ms 221.13ms 280.81ms | Avg: 272.46ms
+Size:  640 | Runs: 454.07ms 439.30ms 445.36ms 450.68ms 520.96ms | Avg: 462.07ms
+Size:  768 | Runs: 1145.53ms 1404.02ms 1406.80ms 1379.94ms 1322.50ms | Avg: 1331.76ms
+Size:  896 | Runs: 1502.62ms 1623.08ms 1553.87ms 1502.51ms 1503.82ms | Avg: 1537.18ms
+Size: 1024 | Runs: 2820.37ms 2841.42ms 2868.13ms 2798.53ms 2904.08ms | Avg: 2846.51ms
+Size: 1152 | Runs: 3597.55ms 3518.78ms 3668.66ms 3656.22ms 3579.82ms | Avg: 3604.21ms
+Size: 1280 | Runs: 6439.48ms 6217.35ms 6155.05ms 6326.57ms 6341.00ms | Avg: 6295.89ms
+Size: 1408 | Runs: 7395.98ms 7881.42ms 8058.03ms 9127.75ms 8430.68ms | Avg: 8178.77ms
+Size: 1536 | Runs: 12881.65ms 12932.48ms 13210.79ms 13345.18ms 13533.75ms | Avg: 13180.77ms
+Size: 1664 | Runs: 13325.46ms 13547.51ms 14379.31ms 17148.44ms 14014.37ms | Avg: 14483.02ms
+Size: 1792 | Runs: 18190.14ms 19117.34ms 18697.14ms 19259.97ms 20254.18ms | Avg: 19103.75ms
+Size: 1920 | Runs: 21987.62ms 24141.43ms 22720.94ms 23889.32ms 23936.03ms | Avg: 23335.07ms
+Size: 2048 | Runs: 47692.35ms 46662.78ms 42578.51ms 45303.05ms 46573.65ms | Avg: 45762.07ms
+
+(.YatPC) root@DESKTOP-RUEFJE0:/home/billyfu/YatPC/lab1# mpirun --allow-run-as-root -np 8 ./matmul
+Size:  128 | Runs:   3.47ms   1.88ms   1.75ms   1.75ms   1.93ms | Avg:   2.16ms
+Size:  256 | Runs:  19.27ms  17.36ms  17.14ms  17.70ms  16.99ms | Avg:  17.69ms
+Size:  384 | Runs:  66.66ms  57.85ms  57.74ms  61.97ms  63.25ms | Avg:  61.50ms
+Size:  512 | Runs: 210.37ms 234.96ms 213.24ms 222.18ms 187.83ms | Avg: 213.72ms
+Size:  640 | Runs: 463.71ms 434.18ms 444.45ms 441.86ms 438.27ms | Avg: 444.50ms
+Size:  768 | Runs: 1034.70ms 965.85ms 1062.02ms 1062.53ms 1080.68ms | Avg: 1041.16ms
+Size:  896 | Runs: 1376.79ms 1394.63ms 1516.10ms 1509.85ms 1553.55ms | Avg: 1470.19ms
+Size: 1024 | Runs: 2638.05ms 2716.99ms 2891.16ms 2851.85ms 3363.69ms | Avg: 2892.35ms
+Size: 1152 | Runs: 3820.37ms 3934.88ms 4095.56ms 4331.72ms 5116.24ms | Avg: 4259.75ms
+Size: 1280 | Runs: 5988.44ms 5848.34ms 5877.97ms 5803.30ms 5659.94ms | Avg: 5835.60ms
+Size: 1408 | Runs: 7237.42ms 6893.05ms 7340.36ms 6839.40ms 7034.66ms | Avg: 7068.98ms
+Size: 1536 | Runs: 12190.77ms 11808.48ms 11288.96ms 11556.26ms 12297.38ms | Avg: 11828.37ms
+Size: 1664 | Runs: 12753.07ms 12929.37ms 13037.10ms 14170.27ms 13788.27ms | Avg: 13335.61ms
+Size: 1792 | Runs: 17771.76ms 21306.72ms 18442.17ms 24079.56ms 21390.03ms | Avg: 20598.05ms
+Size: 1920 | Runs: 20618.05ms 25599.40ms 21729.89ms 21488.10ms 21530.38ms | Avg: 22193.17ms
+Size: 2048 | Runs: 35877.84ms 38044.00ms 43142.29ms 35097.88ms 37250.55ms | Avg: 37882.51ms
+
+(.YatPC) root@DESKTOP-RUEFJE0:/home/billyfu/YatPC/lab1# mpirun --allow-run-as-root --use-hwthread-cpus -np 9 ./matmul
+Size:  128 | Runs:   1.91ms   1.77ms   1.94ms   1.63ms   1.66ms | Avg:   1.78ms
+Size:  256 | Runs:  15.64ms  15.31ms  25.70ms  16.03ms  15.30ms | Avg:  17.60ms
+Size:  384 | Runs:  63.81ms  63.16ms  63.64ms  61.36ms  62.50ms | Avg:  62.89ms
+Size:  512 | Runs: 232.86ms 272.64ms 288.19ms 268.84ms 296.80ms | Avg: 271.87ms
+Size:  640 | Runs: 503.66ms 420.64ms 461.58ms 516.25ms 510.02ms | Avg: 482.43ms
+Size:  768 | Runs: 1128.82ms 1066.44ms 1152.58ms 1245.07ms 1099.68ms | Avg: 1138.52ms
+Size:  896 | Runs: 1569.55ms 1467.16ms 1565.11ms 1472.07ms 1402.39ms | Avg: 1495.26ms
+Size: 1024 | Runs: 2867.85ms 3068.66ms 3293.88ms 3678.90ms 3220.26ms | Avg: 3225.91ms
+Size: 1152 | Runs: 3988.43ms 4030.00ms 3996.59ms 3542.67ms 3563.90ms | Avg: 3824.32ms
+Size: 1280 | Runs: 6206.70ms 6439.22ms 6090.42ms 5917.76ms 5894.97ms | Avg: 6109.82ms
+Size: 1408 | Runs: 7491.59ms 7255.34ms 7990.97ms 7595.75ms 8011.94ms | Avg: 7669.12ms
+Size: 1536 | Runs: 13438.24ms 14387.08ms 12981.62ms 13876.44ms 13620.67ms | Avg: 13660.81ms
+Size: 1664 | Runs: 13200.12ms 13624.60ms 15434.68ms 17105.81ms 15102.86ms | Avg: 14893.61ms
+Size: 1792 | Runs: 20040.22ms 18392.62ms 16928.33ms 17653.87ms 17967.22ms | Avg: 18196.45ms
+Size: 1920 | Runs: 21580.40ms 20770.22ms 21451.32ms 19880.54ms 20342.82ms | Avg: 20805.06ms
+Size: 2048 | Runs: 31273.43ms 35905.72ms 31960.81ms 35112.78ms 33166.54ms | Avg: 33483.86ms
+
+(.YatPC) root@DESKTOP-RUEFJE0:/home/billyfu/YatPC/lab1# mpirun --allow-run-as-root --use-hwthread-cpus -np 10 ./matmul
+Size:  128 | Runs:   2.04ms   1.66ms   1.60ms   1.52ms   2.56ms | Avg:   1.88ms
+Size:  256 | Runs:  13.45ms  16.27ms  14.81ms  14.89ms  16.14ms | Avg:  15.11ms
+Size:  384 | Runs:  57.14ms  56.50ms  54.86ms  55.02ms  53.54ms | Avg:  55.41ms
+Size:  512 | Runs: 272.23ms 282.56ms 247.01ms 236.48ms 241.86ms | Avg: 256.03ms
+Size:  640 | Runs: 433.48ms 445.31ms 473.41ms 434.94ms 457.17ms | Avg: 448.86ms
+Size:  768 | Runs: 1144.03ms 1062.90ms 1072.54ms 961.49ms 986.60ms | Avg: 1045.51ms
+Size:  896 | Runs: 1414.66ms 1453.48ms 1313.08ms 1413.44ms 1378.86ms | Avg: 1394.70ms
+Size: 1024 | Runs: 3138.83ms 3174.68ms 3407.19ms 3064.04ms 3324.22ms | Avg: 3221.79ms
+Size: 1152 | Runs: 3797.57ms 3586.93ms 3973.39ms 3786.76ms 3472.37ms | Avg: 3723.40ms
+Size: 1280 | Runs: 5894.26ms 5741.67ms 5566.74ms 5454.49ms 5992.02ms | Avg: 5729.84ms
+Size: 1408 | Runs: 7836.06ms 5731.75ms 4622.37ms 4514.76ms 4633.74ms | Avg: 5467.73ms
+Size: 1536 | Runs: 7897.04ms 7125.01ms 6978.41ms 8446.80ms 8059.17ms | Avg: 7701.29ms
+Size: 1664 | Runs: 7734.18ms 8239.41ms 7298.86ms 7438.14ms 7538.96ms | Avg: 7649.91ms
+Size: 1792 | Runs: 9936.08ms 11512.82ms 11787.10ms 11953.88ms 11872.39ms | Avg: 11412.45ms
+Size: 1920 | Runs: 13759.66ms 13572.47ms 12289.64ms 11686.06ms 11773.48ms | Avg: 12616.26ms
+Size: 2048 | Runs: 37722.05ms 38466.94ms 38215.18ms 37906.53ms 38882.60ms | Avg: 38238.66ms
+
+(.YatPC) root@DESKTOP-RUEFJE0:/home/billyfu/YatPC/lab1# mpirun --allow-run-as-root --use-hwthread-cpus -np 11 ./matmul
+Size:  128 | Runs:   1.51ms   1.42ms   1.35ms   1.43ms   1.36ms | Avg:   1.41ms
+Size:  256 | Runs:  12.07ms  11.89ms  12.10ms  13.79ms  12.47ms | Avg:  12.46ms
+Size:  384 | Runs:  40.78ms  42.33ms  41.90ms  41.95ms  44.13ms | Avg:  42.22ms
+Size:  512 | Runs: 135.75ms 133.82ms 146.14ms 134.39ms 139.89ms | Avg: 138.00ms
+Size:  640 | Runs: 245.48ms 232.23ms 256.89ms 240.73ms 240.70ms | Avg: 243.21ms
+Size:  768 | Runs: 554.79ms 562.92ms 572.17ms 581.08ms 553.40ms | Avg: 564.87ms
+Size:  896 | Runs: 713.71ms 798.75ms 770.38ms 754.66ms 776.58ms | Avg: 762.82ms
+Size: 1024 | Runs: 1430.61ms 1500.99ms 1497.07ms 1499.13ms 1552.53ms | Avg: 1496.07ms
+Size: 1152 | Runs: 2512.43ms 2052.62ms 2066.49ms 2379.98ms 2292.97ms | Avg: 2260.90ms
+Size: 1280 | Runs: 3065.50ms 3278.22ms 3155.74ms 3610.62ms 3398.93ms | Avg: 3301.80ms
+Size: 1408 | Runs: 3720.66ms 4024.80ms 4052.93ms 3844.19ms 3794.94ms | Avg: 3887.50ms
+Size: 1536 | Runs: 6253.68ms 6258.04ms 6150.60ms 6187.25ms 6129.28ms | Avg: 6195.77ms
+Size: 1664 | Runs: 6683.39ms 6902.22ms 6706.82ms 6476.38ms 6528.56ms | Avg: 6659.47ms
+Size: 1792 | Runs: 8763.77ms 8923.90ms 8645.60ms 8702.53ms 9100.06ms | Avg: 8827.17ms
+Size: 1920 | Runs: 10560.74ms 10456.98ms 10100.56ms 10028.07ms 10226.07ms | Avg: 10274.48ms
+Size: 2048 | Runs: 35808.68ms 39640.35ms 40554.87ms 43340.02ms 41068.83ms | Avg: 40082.55ms
+
+(.YatPC) root@DESKTOP-RUEFJE0:/home/billyfu/YatPC/lab1# mpirun --allow-run-as-root --use-hwthread-cpus -np 12 ./matmul
+Size:  128 | Runs:   1.38ms   1.30ms   1.25ms   1.27ms   1.36ms | Avg:   1.31ms
+Size:  256 | Runs:  10.69ms  10.96ms  12.99ms  12.04ms  11.80ms | Avg:  11.70ms
+Size:  384 | Runs:  39.98ms  40.16ms  39.70ms  38.27ms  37.41ms | Avg:  39.10ms
+Size:  512 | Runs: 118.00ms 130.89ms 133.98ms 155.32ms 143.64ms | Avg: 136.37ms
+Size:  640 | Runs: 250.28ms 224.19ms 251.47ms 239.65ms 248.14ms | Avg: 242.75ms
+Size:  768 | Runs: 559.32ms 591.96ms 601.27ms 647.78ms 601.44ms | Avg: 600.35ms
+Size:  896 | Runs: 750.00ms 798.85ms 796.01ms 769.65ms 774.61ms | Avg: 777.82ms
+Size: 1024 | Runs: 1622.32ms 1442.24ms 1437.11ms 1411.93ms 1482.39ms | Avg: 1479.20ms
+Size: 1152 | Runs: 1741.47ms 1960.68ms 1925.78ms 1932.58ms 2011.53ms | Avg: 1914.41ms
+Size: 1280 | Runs: 2876.29ms 3099.25ms 3087.42ms 3088.06ms 3093.17ms | Avg: 3048.84ms
+Size: 1408 | Runs: 3738.54ms 3769.69ms 3852.39ms 3839.69ms 3816.99ms | Avg: 3803.46ms
+Size: 1536 | Runs: 5416.67ms 6270.11ms 5885.13ms 6001.53ms 5831.31ms | Avg: 5880.95ms
+Size: 1664 | Runs: 6509.95ms 6520.92ms 6482.73ms 6587.40ms 6702.48ms | Avg: 6560.70ms
+Size: 1792 | Runs: 8861.03ms 9104.07ms 8713.79ms 8823.23ms 8919.57ms | Avg: 8884.34ms
+Size: 1920 | Runs: 10586.37ms 10471.33ms 10765.43ms 11406.48ms 10770.36ms | Avg: 10799.99ms
+Size: 2048 | Runs: 26903.32ms 38293.17ms 38632.55ms 38533.95ms 38784.96ms | Avg: 36229.59ms
+
+(.YatPC) root@DESKTOP-RUEFJE0:/home/billyfu/YatPC/lab1# mpirun --allow-run-as-root --use-hwthread-cpus -np 13 ./matmul
+Size:  128 | Runs:   1.41ms   1.31ms   1.23ms   1.25ms   1.50ms | Avg:   1.34ms
+Size:  256 | Runs:  12.60ms  11.11ms  11.43ms  11.08ms  11.52ms | Avg:  11.55ms
+Size:  384 | Runs:  37.83ms  38.32ms  37.36ms  37.46ms  37.30ms | Avg:  37.65ms
+Size:  512 | Runs: 144.91ms 133.66ms 132.46ms 144.66ms 134.80ms | Avg: 138.10ms
+Size:  640 | Runs: 235.57ms 242.69ms 241.41ms 237.36ms 237.18ms | Avg: 238.84ms
+Size:  768 | Runs: 589.51ms 553.56ms 552.16ms 523.33ms 569.98ms | Avg: 557.71ms
+Size:  896 | Runs: 682.59ms 760.61ms 753.33ms 755.72ms 726.14ms | Avg: 735.68ms
+Size: 1024 | Runs: 1532.46ms 1442.26ms 1403.94ms 1383.32ms 1422.60ms | Avg: 1436.91ms
+Size: 1152 | Runs: 1657.49ms 1858.10ms 1880.80ms 1896.21ms 1843.97ms | Avg: 1827.31ms
+Size: 1280 | Runs: 2796.84ms 3018.83ms 3003.91ms 2967.26ms 2998.59ms | Avg: 2957.08ms
+Size: 1408 | Runs: 3563.51ms 3850.91ms 3665.28ms 3659.19ms 4042.12ms | Avg: 3756.20ms
+Size: 1536 | Runs: 5628.44ms 5965.57ms 5902.56ms 5954.34ms 5966.83ms | Avg: 5883.55ms
+Size: 1664 | Runs: 6046.11ms 6398.61ms 6510.13ms 6330.18ms 6430.52ms | Avg: 6343.11ms
+Size: 1792 | Runs: 8752.86ms 8592.09ms 8528.17ms 8533.18ms 8488.90ms | Avg: 8579.04ms
+Size: 1920 | Runs: 10341.41ms 10420.07ms 10831.05ms 10547.57ms 10258.46ms | Avg: 10479.71ms
+Size: 2048 | Runs: 28656.67ms 29717.88ms 30958.06ms 32621.82ms 33775.97ms | Avg: 31146.08ms
+
+(.YatPC) root@DESKTOP-RUEFJE0:/home/billyfu/YatPC/lab1# mpirun --allow-run-as-root --use-hwthread-cpus -np 14 ./matmul
+Size:  128 | Runs:   1.38ms   1.41ms   1.25ms   1.19ms   1.23ms | Avg:   1.29ms
+Size:  256 | Runs:  10.00ms   9.33ms  10.64ms  10.25ms  10.29ms | Avg:  10.10ms
+Size:  384 | Runs:  36.34ms  35.60ms  34.89ms  34.34ms  34.23ms | Avg:  35.08ms
+Size:  512 | Runs: 117.93ms 134.93ms 123.82ms 129.21ms 146.97ms | Avg: 130.57ms
+Size:  640 | Runs: 267.16ms 255.20ms 232.56ms 252.07ms 232.34ms | Avg: 247.87ms
+Size:  768 | Runs: 526.39ms 582.46ms 542.32ms 521.65ms 523.21ms | Avg: 539.21ms
+Size:  896 | Runs: 686.30ms 708.94ms 673.44ms 721.20ms 680.48ms | Avg: 694.07ms
+Size: 1024 | Runs: 1802.42ms 1508.04ms 1511.48ms 1450.27ms 1347.15ms | Avg: 1523.87ms
+Size: 1152 | Runs: 1668.68ms 1868.45ms 1796.29ms 1756.49ms 1788.62ms | Avg: 1775.71ms
+Size: 1280 | Runs: 2680.29ms 2872.93ms 2852.66ms 2874.89ms 2877.88ms | Avg: 2831.73ms
+Size: 1408 | Runs: 3427.25ms 3664.50ms 3597.88ms 3609.34ms 3679.69ms | Avg: 3595.73ms
+Size: 1536 | Runs: 5209.86ms 5559.73ms 5827.67ms 5861.27ms 5544.86ms | Avg: 5600.68ms
+Size: 1664 | Runs: 5911.80ms 6320.49ms 6349.00ms 6360.38ms 6329.75ms | Avg: 6254.28ms
+Size: 1792 | Runs: 7839.83ms 8441.58ms 8738.39ms 8513.75ms 8418.11ms | Avg: 8390.33ms
+Size: 1920 | Runs: 10299.29ms 10254.94ms 10196.71ms 10203.53ms 10480.65ms | Avg: 10287.02ms
+Size: 2048 | Runs: 29148.29ms 30334.04ms 31846.96ms 33396.47ms 33997.12ms | Avg: 31744.58ms
+
+(.YatPC) root@DESKTOP-RUEFJE0:/home/billyfu/YatPC/lab1# mpirun --allow-run-as-root --use-hwthread-cpus -np 15 ./matmul
+Size:  128 | Runs:   1.27ms   1.43ms   1.27ms   1.13ms   1.15ms | Avg:   1.25ms
+Size:  256 | Runs:   9.04ms  10.04ms  10.03ms   9.82ms  10.01ms | Avg:   9.79ms
+Size:  384 | Runs:  34.76ms  33.39ms  32.11ms  32.42ms  33.35ms | Avg:  33.21ms
+Size:  512 | Runs: 136.80ms 171.40ms 151.12ms 148.43ms 129.49ms | Avg: 147.45ms
+Size:  640 | Runs: 222.98ms 243.07ms 269.39ms 228.43ms 236.76ms | Avg: 240.13ms
+Size:  768 | Runs: 562.21ms 552.41ms 570.75ms 528.99ms 543.71ms | Avg: 551.62ms
+Size:  896 | Runs: 671.63ms 728.79ms 695.31ms 725.10ms 707.02ms | Avg: 705.57ms
+Size: 1024 | Runs: 1610.71ms 1410.83ms 1402.16ms 1483.23ms 1545.87ms | Avg: 1490.56ms
+Size: 1152 | Runs: 1769.49ms 1847.06ms 1818.59ms 1816.09ms 1798.50ms | Avg: 1809.94ms
+Size: 1280 | Runs: 2852.19ms 3026.74ms 3182.35ms 2861.21ms 2794.00ms | Avg: 2943.30ms
+Size: 1408 | Runs: 3371.66ms 3679.97ms 3642.43ms 3627.32ms 3620.53ms | Avg: 3588.38ms
+Size: 1536 | Runs: 5117.74ms 5678.02ms 5516.13ms 5669.07ms 5633.59ms | Avg: 5522.91ms
+Size: 1664 | Runs: 5972.18ms 6798.72ms 6322.29ms 6310.84ms 6333.04ms | Avg: 6347.41ms
+Size: 1792 | Runs: 7738.26ms 8452.03ms 8418.18ms 8404.77ms 8400.78ms | Avg: 8282.80ms
+Size: 1920 | Runs: 9622.62ms 10193.71ms 10056.60ms 10153.81ms 10203.06ms | Avg: 10045.96ms
+Size: 2048 | Runs: 28545.42ms 28774.16ms 29529.14ms 30560.49ms 31961.90ms | Avg: 29874.22ms
+
+(.YatPC) root@DESKTOP-RUEFJE0:/home/billyfu/YatPC/lab1# mpirun --allow-run-as-root --use-hwthread-cpus -np 16 ./matmul
+Size:  128 | Runs:  70.88ms  19.17ms   1.20ms   1.19ms   1.22ms | Avg:  18.73ms
+Size:  256 | Runs:  15.00ms  17.66ms  19.24ms  19.27ms  15.03ms | Avg:  17.24ms
+Size:  384 | Runs:  60.66ms  55.96ms  36.76ms  34.98ms  35.51ms | Avg:  44.78ms
+Size:  512 | Runs: 138.91ms 143.89ms 135.86ms 187.57ms 192.17ms | Avg: 159.68ms
+Size:  640 | Runs: 282.28ms 261.91ms 241.72ms 227.96ms 232.14ms | Avg: 249.20ms
+Size:  768 | Runs: 521.08ms 671.53ms 514.56ms 508.56ms 514.13ms | Avg: 545.97ms
+Size:  896 | Runs: 696.90ms 709.31ms 664.21ms 721.73ms 661.16ms | Avg: 690.66ms
+Size: 1024 | Runs: 1613.26ms 1335.32ms 1480.58ms 1444.10ms 1361.50ms | Avg: 1446.95ms
+Size: 1152 | Runs: 1690.51ms 1870.31ms 1856.12ms 1811.88ms 1921.31ms | Avg: 1830.02ms
+Size: 1280 | Runs: 2842.20ms 2967.91ms 2860.44ms 2909.29ms 2989.36ms | Avg: 2913.84ms
+Size: 1408 | Runs: 3437.21ms 3933.91ms 3919.06ms 3759.47ms 3783.32ms | Avg: 3766.60ms
+Size: 1536 | Runs: 5866.20ms 5912.15ms 5893.73ms 5785.24ms 5904.79ms | Avg: 5872.42ms
+Size: 1664 | Runs: 6248.42ms 6730.70ms 6676.67ms 6732.90ms 6586.21ms | Avg: 6594.98ms
+Size: 1792 | Runs: 8712.28ms 8854.12ms 8979.09ms 8874.12ms 8831.41ms | Avg: 8850.20ms
+Size: 1920 | Runs: 9880.41ms 10977.63ms 11272.50ms 10765.19ms 10866.24ms | Avg: 10752.40ms
+Size: 2048 | Runs: 31369.99ms 29536.65ms 28310.58ms 25779.15ms 28106.76ms | Avg: 28620.63ms
