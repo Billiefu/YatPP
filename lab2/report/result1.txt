@@ -1,0 +1,287 @@
+Processes: 1
+Size:  128 | Runs:     0.01 ms      0.01 ms         0.02 ms         0.03 ms         0.04 ms      | Avg Time:     6.72 ms
+Size:  256 | Runs:     0.09 ms      0.15 ms         0.21 ms         0.27 ms         0.32 ms      | Avg Time:    55.44 ms
+Size:  384 | Runs:     0.52 ms      0.71 ms         0.90 ms         1.08 ms         1.28 ms      | Avg Time:   186.53 ms
+Size:  512 | Runs:     1.88 ms      2.39 ms         2.91 ms         3.44 ms         4.00 ms      | Avg Time:   536.21 ms
+Size:  640 | Runs:     5.75 ms      7.61 ms         9.35 ms        11.15 ms        12.93 ms      | Avg Time:  1766.77 ms
+Size:  768 | Runs:    16.66 ms     20.17 ms        23.58 ms        27.19 ms        30.76 ms      | Avg Time:  3528.06 ms
+Size:  896 | Runs:    36.17 ms     41.12 ms        46.03 ms        50.99 ms        56.02 ms      | Avg Time:  5004.17 ms
+Size: 1024 | Runs:    65.41 ms     73.96 ms        82.54 ms        91.02 ms        99.57 ms      | Avg Time:  8639.47 ms
+Size: 1152 | Runs:   111.78 ms    124.07 ms       136.27 ms       148.48 ms       161.00 ms      | Avg Time: 12207.27 ms
+Size: 1280 | Runs:   181.69 ms    201.67 ms       221.07 ms       240.83 ms       260.97 ms      | Avg Time: 19900.61 ms
+Size: 1408 | Runs:   290.10 ms    318.84 ms       348.49 ms       376.59 ms       403.76 ms      | Avg Time: 28452.48 ms
+Size: 1536 | Runs:   450.20 ms    491.61 ms       541.96 ms       589.75 ms       632.94 ms      | Avg Time: 45706.88 ms
+Size: 1664 | Runs:   690.85 ms    752.05 ms       810.74 ms       871.11 ms       927.88 ms      | Avg Time: 58833.34 ms
+Size: 1792 | Runs:  1009.72 ms   1094.83 ms      1179.25 ms      1262.71 ms      1346.24 ms      | Avg Time: 83493.80 ms
+Size: 1920 | Runs:  1443.13 ms   1539.79 ms      1637.07 ms      1737.00 ms      1831.05 ms      | Avg Time: 96751.14 ms
+Size: 2048 | Runs:  2115.17 ms   2408.14 ms      2700.86 ms      2979.31 ms      3282.14 ms      | Avg Time: 289986.57 ms
+
+Processes: 2
+Size:  128 | Runs:     0.00 ms      0.01 ms         0.01 ms         0.04 ms         0.04 ms      | Avg Time:     7.48 ms
+Size:  256 | Runs:     0.09 ms      0.16 ms         0.21 ms         0.28 ms         0.33 ms      | Avg Time:    48.00 ms
+Size:  384 | Runs:     0.53 ms      0.73 ms         0.92 ms         1.10 ms         1.31 ms      | Avg Time:   182.58 ms
+Size:  512 | Runs:     1.96 ms      2.56 ms         3.16 ms         3.76 ms         4.36 ms      | Avg Time:   588.98 ms
+Size:  640 | Runs:     5.32 ms      6.25 ms         6.88 ms         7.81 ms         8.82 ms      | Avg Time:   872.35 ms
+Size:  768 | Runs:    11.63 ms     14.87 ms        16.82 ms        18.82 ms        20.70 ms      | Avg Time:  2335.46 ms
+Size:  896 | Runs:    23.69 ms     26.62 ms        29.70 ms        32.78 ms        35.67 ms      | Avg Time:  2951.32 ms
+Size: 1024 | Runs:    41.28 ms     46.90 ms        52.61 ms        61.57 ms        68.80 ms      | Avg Time:  6561.64 ms
+Size: 1152 | Runs:    78.05 ms     86.13 ms        93.95 ms       101.65 ms       109.97 ms      | Avg Time:  8164.62 ms
+Size: 1280 | Runs:   123.21 ms    136.50 ms       151.69 ms       165.56 ms       179.36 ms      | Avg Time: 13791.44 ms
+Size: 1408 | Runs:   197.07 ms    215.85 ms       233.89 ms       252.37 ms       271.09 ms      | Avg Time: 18237.84 ms
+Size: 1536 | Runs:   300.40 ms    328.27 ms       357.04 ms       385.35 ms       413.80 ms      | Avg Time: 28389.56 ms
+Size: 1664 | Runs:   448.28 ms    481.56 ms       513.75 ms       547.38 ms       580.82 ms      | Avg Time: 33242.66 ms
+Size: 1792 | Runs:   627.13 ms    675.06 ms       724.20 ms       773.32 ms       820.98 ms      | Avg Time: 47847.53 ms
+Size: 1920 | Runs:   873.82 ms    928.92 ms       982.01 ms      1034.42 ms      1089.56 ms      | Avg Time: 53507.94 ms
+Size: 2048 | Runs:  1271.83 ms   1444.41 ms      1624.86 ms      1792.15 ms      1958.71 ms      | Avg Time: 173583.44 ms
+
+Processes: 3
+Size:  128 | Runs:     0.00 ms      0.01 ms         0.01 ms         0.01 ms         0.01 ms      | Avg Time:     2.48 ms
+Size:  256 | Runs:     0.05 ms      0.09 ms         0.13 ms         0.17 ms         0.22 ms      | Avg Time:    37.73 ms
+Size:  384 | Runs:     0.36 ms      0.50 ms         0.60 ms         0.68 ms         0.76 ms      | Avg Time:   102.56 ms
+Size:  512 | Runs:     1.13 ms      1.48 ms         1.83 ms         2.17 ms         2.56 ms      | Avg Time:   351.55 ms
+Size:  640 | Runs:     3.14 ms      3.70 ms         4.27 ms         4.79 ms         5.33 ms      | Avg Time:   539.66 ms
+Size:  768 | Runs:     6.41 ms      7.65 ms         9.20 ms        10.54 ms        12.03 ms      | Avg Time:  1319.14 ms
+Size:  896 | Runs:    14.09 ms     15.91 ms        17.59 ms        19.42 ms        21.72 ms      | Avg Time:  1912.63 ms
+Size: 1024 | Runs:    24.73 ms     28.26 ms        31.44 ms        34.76 ms        38.33 ms      | Avg Time:  3287.48 ms
+Size: 1152 | Runs:    42.64 ms     46.68 ms        51.01 ms        55.64 ms        59.85 ms      | Avg Time:  4256.41 ms
+Size: 1280 | Runs:    67.75 ms     75.54 ms        82.74 ms        90.40 ms        97.58 ms      | Avg Time:  7486.47 ms
+Size: 1408 | Runs:   106.78 ms    114.60 ms       122.85 ms       131.84 ms       140.90 ms      | Avg Time:  8596.12 ms
+Size: 1536 | Runs:   155.20 ms    169.70 ms       183.97 ms       198.46 ms       214.23 ms      | Avg Time: 14579.22 ms
+Size: 1664 | Runs:   230.07 ms    245.93 ms       261.71 ms       278.42 ms       294.61 ms      | Avg Time: 15976.78 ms
+Size: 1792 | Runs:   317.73 ms    341.17 ms       363.34 ms       385.69 ms       408.69 ms      | Avg Time: 22705.49 ms
+Size: 1920 | Runs:   434.78 ms    462.84 ms       489.89 ms       516.24 ms       541.87 ms      | Avg Time: 26501.83 ms
+Size: 2048 | Runs:   633.30 ms    722.07 ms       814.47 ms       904.13 ms       996.77 ms      | Avg Time: 90835.95 ms
+
+Processes: 4
+Size:  128 | Runs:     0.00 ms      0.00 ms         0.01 ms         0.01 ms         0.01 ms      | Avg Time:     2.17 ms
+Size:  256 | Runs:     0.03 ms      0.06 ms         0.08 ms         0.11 ms         0.14 ms      | Avg Time:    22.05 ms
+Size:  384 | Runs:     0.22 ms      0.32 ms         0.42 ms         0.52 ms         0.57 ms      | Avg Time:    82.54 ms
+Size:  512 | Runs:     0.77 ms      0.96 ms         1.28 ms         1.55 ms         1.88 ms      | Avg Time:   250.49 ms
+Size:  640 | Runs:     2.41 ms      2.89 ms         3.33 ms         3.88 ms         4.49 ms      | Avg Time:   504.49 ms
+Size:  768 | Runs:     5.61 ms      6.78 ms         7.99 ms         9.50 ms        10.72 ms      | Avg Time:  1223.57 ms
+Size:  896 | Runs:    12.39 ms     14.07 ms        16.03 ms        17.59 ms        19.11 ms      | Avg Time:  1644.49 ms
+Size: 1024 | Runs:    22.51 ms     25.78 ms        28.92 ms        32.33 ms        35.37 ms      | Avg Time:  3210.86 ms
+Size: 1152 | Runs:    39.80 ms     43.49 ms        47.51 ms        51.54 ms        55.88 ms      | Avg Time:  4055.36 ms
+Size: 1280 | Runs:    62.25 ms     68.35 ms        75.02 ms        81.85 ms        88.68 ms      | Avg Time:  6495.68 ms
+Size: 1408 | Runs:    97.35 ms    104.82 ms       112.88 ms       120.70 ms       128.93 ms      | Avg Time:  7977.88 ms
+Size: 1536 | Runs:   142.48 ms    156.05 ms       169.49 ms       182.49 ms       195.58 ms      | Avg Time: 13239.53 ms
+Size: 1664 | Runs:   210.41 ms    224.44 ms       239.72 ms       254.39 ms       269.43 ms      | Avg Time: 14665.44 ms
+Size: 1792 | Runs:   289.51 ms    309.70 ms       330.65 ms       349.80 ms       369.94 ms      | Avg Time: 19976.27 ms
+Size: 1920 | Runs:   392.88 ms    415.81 ms       439.93 ms       463.81 ms       487.42 ms      | Avg Time: 23359.30 ms
+Size: 2048 | Runs:   567.08 ms    642.31 ms       728.66 ms       815.92 ms       900.16 ms      | Avg Time: 82382.12 ms
+
+Processes: 5
+Size:  128 | Runs:     0.00 ms      0.01 ms         0.01 ms         0.01 ms         0.01 ms      | Avg Time:     2.39 ms
+Size:  256 | Runs:     0.06 ms      0.09 ms         0.12 ms         0.14 ms         0.17 ms      | Avg Time:    27.48 ms
+Size:  384 | Runs:     0.27 ms      0.36 ms         0.45 ms         0.53 ms         0.63 ms      | Avg Time:    85.78 ms
+Size:  512 | Runs:     0.91 ms      1.23 ms         1.53 ms         1.82 ms         2.11 ms      | Avg Time:   283.88 ms
+Size:  640 | Runs:     2.60 ms      3.12 ms         3.63 ms         4.07 ms         4.54 ms      | Avg Time:   469.22 ms
+Size:  768 | Runs:     5.71 ms      6.85 ms         7.99 ms         9.19 ms        10.41 ms      | Avg Time:  1148.59 ms
+Size:  896 | Runs:    11.93 ms     13.44 ms        14.97 ms        16.52 ms        18.11 ms      | Avg Time:  1508.86 ms
+Size: 1024 | Runs:    21.16 ms     24.60 ms        27.81 ms        31.09 ms        34.24 ms      | Avg Time:  3181.39 ms
+Size: 1152 | Runs:    38.05 ms     41.86 ms        45.71 ms        49.52 ms        53.05 ms      | Avg Time:  3704.58 ms
+Size: 1280 | Runs:    59.14 ms     65.13 ms        71.21 ms        77.33 ms        83.55 ms      | Avg Time:  6031.98 ms
+Size: 1408 | Runs:    91.09 ms     98.78 ms       106.28 ms       113.74 ms       121.49 ms      | Avg Time:  7510.61 ms
+Size: 1536 | Runs:   133.43 ms    145.43 ms       157.39 ms       169.72 ms       181.91 ms      | Avg Time: 11984.12 ms
+Size: 1664 | Runs:   194.95 ms    207.94 ms       221.47 ms       234.40 ms       247.58 ms      | Avg Time: 13021.98 ms
+Size: 1792 | Runs:   265.12 ms    282.56 ms       300.08 ms       317.71 ms       335.32 ms      | Avg Time: 17415.26 ms
+Size: 1920 | Runs:   356.00 ms    377.16 ms       398.55 ms       419.52 ms       441.09 ms      | Avg Time: 21008.40 ms
+Size: 2048 | Runs:   509.65 ms    578.09 ms       646.86 ms       713.73 ms       779.31 ms      | Avg Time: 67477.29 ms
+
+Processes: 6
+Size:  128 | Runs:     0.00 ms      0.01 ms         0.01 ms         0.01 ms         0.02 ms      | Avg Time:     2.67 ms
+Size:  256 | Runs:     0.04 ms      0.07 ms         0.09 ms         0.12 ms         0.15 ms      | Avg Time:    22.86 ms
+Size:  384 | Runs:     0.24 ms      0.32 ms         0.40 ms         0.49 ms         0.57 ms      | Avg Time:    78.28 ms
+Size:  512 | Runs:     0.85 ms      1.13 ms         1.38 ms         1.67 ms         1.93 ms      | Avg Time:   259.66 ms
+Size:  640 | Runs:     2.42 ms      2.88 ms         3.36 ms         3.80 ms         4.30 ms      | Avg Time:   454.73 ms
+Size:  768 | Runs:     5.37 ms      6.46 ms         7.51 ms         8.61 ms         9.69 ms      | Avg Time:  1049.97 ms
+Size:  896 | Runs:    11.14 ms     12.62 ms        14.08 ms        15.49 ms        17.03 ms      | Avg Time:  1433.57 ms
+Size: 1024 | Runs:    19.91 ms     22.92 ms        26.05 ms        29.03 ms        32.12 ms      | Avg Time:  2969.28 ms
+Size: 1152 | Runs:    35.76 ms     39.25 ms        42.75 ms        46.20 ms        49.73 ms      | Avg Time:  3463.17 ms
+Size: 1280 | Runs:    55.50 ms     61.26 ms        67.28 ms        72.90 ms        78.63 ms      | Avg Time:  5708.15 ms
+Size: 1408 | Runs:    85.58 ms     92.66 ms        99.51 ms       106.55 ms       113.81 ms      | Avg Time:  6949.16 ms
+Size: 1536 | Runs:   124.98 ms    136.10 ms       147.37 ms       158.80 ms       169.99 ms      | Avg Time: 11130.12 ms
+Size: 1664 | Runs:   182.64 ms    194.64 ms       206.84 ms       218.87 ms       231.14 ms      | Avg Time: 12110.04 ms
+Size: 1792 | Runs:   247.86 ms    264.23 ms       280.79 ms       297.03 ms       313.28 ms      | Avg Time: 16284.50 ms
+Size: 1920 | Runs:   332.53 ms    352.12 ms       372.10 ms       392.39 ms       412.49 ms      | Avg Time: 19686.22 ms
+Size: 2048 | Runs:   490.40 ms    570.03 ms       642.60 ms       715.71 ms       786.15 ms      | Avg Time: 74555.15 ms
+
+Processes: 7
+Size:  128 | Runs:     0.00 ms      0.01 ms         0.01 ms         0.01 ms         0.02 ms      | Avg Time:     2.54 ms
+Size:  256 | Runs:     0.04 ms      0.06 ms         0.08 ms         0.11 ms         0.14 ms      | Avg Time:    21.29 ms
+Size:  384 | Runs:     0.22 ms      0.30 ms         0.38 ms         0.46 ms         0.54 ms      | Avg Time:    73.34 ms
+Size:  512 | Runs:     0.82 ms      1.07 ms         1.31 ms         1.57 ms         1.83 ms      | Avg Time:   246.26 ms
+Size:  640 | Runs:     2.25 ms      2.72 ms         3.21 ms         3.67 ms         4.11 ms      | Avg Time:   435.84 ms
+Size:  768 | Runs:     5.16 ms      6.23 ms         7.26 ms         8.33 ms         9.36 ms      | Avg Time:  1023.60 ms
+Size:  896 | Runs:    10.70 ms     12.06 ms        13.36 ms        14.69 ms        16.04 ms      | Avg Time:  1298.46 ms
+Size: 1024 | Runs:    19.42 ms     22.42 ms        25.11 ms        27.76 ms        30.57 ms      | Avg Time:  2858.76 ms
+Size: 1152 | Runs:    33.93 ms     37.16 ms        40.44 ms        43.81 ms        47.34 ms      | Avg Time:  3288.31 ms
+Size: 1280 | Runs:    52.78 ms     58.28 ms        63.83 ms        69.38 ms        74.88 ms      | Avg Time:  5430.32 ms
+Size: 1408 | Runs:    81.93 ms     88.85 ms        95.77 ms       102.73 ms       109.64 ms      | Avg Time:  6859.31 ms
+Size: 1536 | Runs:   120.55 ms    131.22 ms       141.83 ms       152.32 ms       162.89 ms      | Avg Time: 10541.46 ms
+Size: 1664 | Runs:   174.95 ms    187.09 ms       199.00 ms       210.91 ms       222.68 ms      | Avg Time: 11831.66 ms
+Size: 1792 | Runs:   238.86 ms    254.78 ms       270.76 ms       287.07 ms       303.06 ms      | Avg Time: 15924.92 ms
+Size: 1920 | Runs:   322.56 ms    342.07 ms       361.89 ms       381.54 ms       401.42 ms      | Avg Time: 19509.44 ms
+Size: 2048 | Runs:   468.77 ms    535.98 ms       603.30 ms       671.04 ms       732.02 ms      | Avg Time: 65931.66 ms
+
+Processes: 8
+Size:  128 | Runs:     0.01 ms      0.01 ms         0.02 ms         0.03 ms         0.03 ms      | Avg Time:     5.77 ms
+Size:  256 | Runs:     0.06 ms      0.08 ms         0.11 ms         0.14 ms         0.17 ms      | Avg Time:    23.87 ms
+Size:  384 | Runs:     0.25 ms      0.33 ms         0.41 ms         0.49 ms         0.65 ms      | Avg Time:    87.42 ms
+Size:  512 | Runs:     0.99 ms      1.26 ms         1.51 ms         1.80 ms         2.07 ms      | Avg Time:   271.39 ms
+Size:  640 | Runs:     2.53 ms      3.01 ms         3.51 ms         3.94 ms         4.44 ms      | Avg Time:   454.21 ms
+Size:  768 | Runs:     5.53 ms      6.59 ms         7.66 ms         8.72 ms         9.74 ms      | Avg Time:  1030.43 ms
+Size:  896 | Runs:    11.03 ms     12.43 ms        13.80 ms        15.18 ms        16.54 ms      | Avg Time:  1321.08 ms
+Size: 1024 | Runs:    20.01 ms     23.30 ms        26.04 ms        28.80 ms        31.50 ms      | Avg Time:  2941.67 ms
+Size: 1152 | Runs:    34.99 ms     38.55 ms        41.94 ms        45.41 ms        48.74 ms      | Avg Time:  3383.66 ms
+Size: 1280 | Runs:    54.37 ms     59.81 ms        65.42 ms        70.91 ms        76.59 ms      | Avg Time:  5490.28 ms
+Size: 1408 | Runs:    83.88 ms     90.69 ms        97.75 ms       104.77 ms       111.73 ms      | Avg Time:  6932.65 ms
+Size: 1536 | Runs:   122.69 ms    133.68 ms       144.67 ms       155.52 ms       166.49 ms      | Avg Time: 10837.75 ms
+Size: 1664 | Runs:   179.08 ms    191.45 ms       203.91 ms       216.81 ms       229.48 ms      | Avg Time: 12454.53 ms
+Size: 1792 | Runs:   246.50 ms    262.61 ms       278.76 ms       294.67 ms       310.68 ms      | Avg Time: 16088.81 ms
+Size: 1920 | Runs:   330.43 ms    350.19 ms       369.93 ms       389.74 ms       409.37 ms      | Avg Time: 19560.68 ms
+Size: 2048 | Runs:   479.02 ms    549.02 ms       619.05 ms       686.22 ms       754.45 ms      | Avg Time: 68797.45 ms
+
+Processes: 9
+Size:  128 | Runs:     0.10 ms      0.14 ms         0.18 ms         0.23 ms         0.28 ms      | Avg Time:    55.66 ms
+Size:  256 | Runs:     0.41 ms      0.48 ms         0.53 ms         0.57 ms         0.72 ms      | Avg Time:    75.62 ms
+Size:  384 | Runs:     0.92 ms      1.09 ms         1.27 ms         1.39 ms         1.55 ms      | Avg Time:   158.95 ms
+Size:  512 | Runs:     1.95 ms      2.28 ms         2.68 ms         3.08 ms         3.50 ms      | Avg Time:   371.08 ms
+Size:  640 | Runs:     4.26 ms      4.90 ms         5.53 ms         6.33 ms         6.96 ms      | Avg Time:   658.76 ms
+Size:  768 | Runs:     8.21 ms      9.48 ms        10.58 ms        11.83 ms        13.10 ms      | Avg Time:  1182.03 ms
+Size:  896 | Runs:    14.83 ms     16.58 ms        18.07 ms        19.71 ms        21.19 ms      | Avg Time:  1579.19 ms
+Size: 1024 | Runs:    24.83 ms     27.50 ms        30.43 ms        33.40 ms        36.96 ms      | Avg Time:  3092.52 ms
+Size: 1152 | Runs:    40.76 ms     44.59 ms        48.14 ms        52.17 ms        55.91 ms      | Avg Time:  3706.33 ms
+Size: 1280 | Runs:    62.12 ms     67.98 ms        74.12 ms        80.31 ms        86.44 ms      | Avg Time:  6019.54 ms
+Size: 1408 | Runs:    94.31 ms    101.88 ms       109.06 ms       116.39 ms       123.88 ms      | Avg Time:  7382.27 ms
+Size: 1536 | Runs:   135.41 ms    146.75 ms       157.83 ms       168.58 ms       179.50 ms      | Avg Time: 10983.67 ms
+Size: 1664 | Runs:   192.66 ms    205.35 ms       217.78 ms       230.36 ms       242.63 ms      | Avg Time: 12488.45 ms
+Size: 1792 | Runs:   260.33 ms    276.87 ms       294.84 ms       312.52 ms       329.36 ms      | Avg Time: 17173.06 ms
+Size: 1920 | Runs:   350.66 ms    373.13 ms       394.21 ms       415.92 ms       437.46 ms      | Avg Time: 21446.90 ms
+Size: 2048 | Runs:   493.37 ms    560.02 ms       622.99 ms       690.42 ms       757.61 ms      | Avg Time: 63791.52 ms
+
+Processes: 10
+Size:  128 | Runs:     0.07 ms      0.15 ms         0.21 ms         0.29 ms         0.33 ms      | Avg Time:    64.86 ms
+Size:  256 | Runs:     0.42 ms      0.53 ms         0.64 ms         0.68 ms         0.72 ms      | Avg Time:    75.22 ms
+Size:  384 | Runs:     0.89 ms      1.06 ms         1.23 ms         1.40 ms         1.57 ms      | Avg Time:   162.78 ms
+Size:  512 | Runs:     1.90 ms      2.33 ms         2.78 ms         3.07 ms         3.45 ms      | Avg Time:   360.14 ms
+Size:  640 | Runs:     4.10 ms      4.73 ms         5.51 ms         6.16 ms         6.81 ms      | Avg Time:   646.86 ms
+Size:  768 | Runs:     7.98 ms      9.30 ms        10.57 ms        11.81 ms        13.04 ms      | Avg Time:  1212.67 ms
+Size:  896 | Runs:    14.61 ms     16.67 ms        18.45 ms        20.22 ms        21.89 ms      | Avg Time:  1722.23 ms
+Size: 1024 | Runs:    25.73 ms     28.77 ms        32.48 ms        35.98 ms        39.16 ms      | Avg Time:  3361.47 ms
+Size: 1152 | Runs:    42.81 ms     46.78 ms        50.49 ms        54.68 ms        58.55 ms      | Avg Time:  3776.32 ms
+Size: 1280 | Runs:    64.73 ms     71.11 ms        77.04 ms        84.17 ms        90.34 ms      | Avg Time:  6260.60 ms
+Size: 1408 | Runs:    98.15 ms    105.95 ms       113.63 ms       122.40 ms       130.35 ms      | Avg Time:  7864.08 ms
+Size: 1536 | Runs:   142.49 ms    156.16 ms       168.66 ms       180.80 ms       192.93 ms      | Avg Time: 12383.33 ms
+Size: 1664 | Runs:   206.62 ms    219.50 ms       232.07 ms       245.35 ms       258.49 ms      | Avg Time: 12938.72 ms
+Size: 1792 | Runs:   275.68 ms    293.65 ms       314.47 ms       333.48 ms       353.56 ms      | Avg Time: 18773.62 ms
+Size: 1920 | Runs:   378.19 ms    402.80 ms       427.91 ms       450.08 ms       472.39 ms      | Avg Time: 23521.90 ms
+Size: 2048 | Runs:   542.72 ms    611.08 ms       677.49 ms       746.17 ms       815.61 ms      | Avg Time: 68409.85 ms
+
+Processes: 11
+Size:  128 | Runs:     0.23 ms      0.39 ms         0.60 ms         0.76 ms         0.93 ms      | Avg Time:   185.17 ms
+Size:  256 | Runs:     1.16 ms      1.34 ms         1.49 ms         1.55 ms         1.62 ms      | Avg Time:   134.82 ms
+Size:  384 | Runs:     1.79 ms      1.94 ms         2.10 ms         2.28 ms         2.50 ms      | Avg Time:   168.57 ms
+Size:  512 | Runs:     2.91 ms      3.43 ms         3.85 ms         4.29 ms         4.78 ms      | Avg Time:   431.12 ms
+Size:  640 | Runs:     5.42 ms      6.17 ms         6.74 ms         7.42 ms         8.04 ms      | Avg Time:   630.76 ms
+Size:  768 | Runs:     9.48 ms     10.84 ms        12.08 ms        13.32 ms        14.51 ms      | Avg Time:  1262.23 ms
+Size:  896 | Runs:    16.00 ms     17.85 ms        19.75 ms        21.51 ms        23.32 ms      | Avg Time:  1709.63 ms
+Size: 1024 | Runs:    26.90 ms     30.64 ms        34.38 ms        37.63 ms        40.80 ms      | Avg Time:  3420.53 ms
+Size: 1152 | Runs:    44.51 ms     48.18 ms        52.09 ms        56.03 ms        60.36 ms      | Avg Time:  3820.11 ms
+Size: 1280 | Runs:    66.49 ms     72.75 ms        78.92 ms        84.92 ms        91.35 ms      | Avg Time:  6067.14 ms
+Size: 1408 | Runs:    98.72 ms    106.61 ms       114.57 ms       122.68 ms       130.86 ms      | Avg Time:  7766.39 ms
+Size: 1536 | Runs:   143.28 ms    155.65 ms       168.57 ms       180.93 ms       192.84 ms      | Avg Time: 12236.06 ms
+Size: 1664 | Runs:   206.52 ms    220.98 ms       236.21 ms       250.65 ms       264.95 ms      | Avg Time: 14243.28 ms
+Size: 1792 | Runs:   284.30 ms    303.02 ms       322.40 ms       341.42 ms       360.88 ms      | Avg Time: 18976.62 ms
+Size: 1920 | Runs:   383.68 ms    406.01 ms       429.56 ms       452.50 ms       474.85 ms      | Avg Time: 22562.49 ms
+Size: 2048 | Runs:   541.53 ms    606.90 ms       672.62 ms       738.74 ms       800.22 ms      | Avg Time: 64784.73 ms
+
+Processes: 12
+Size:  128 | Runs:     0.23 ms      0.42 ms         0.50 ms         0.66 ms         0.82 ms      | Avg Time:   162.43 ms
+Size:  256 | Runs:     1.00 ms      1.20 ms         1.35 ms         1.46 ms         1.63 ms      | Avg Time:   160.42 ms
+Size:  384 | Runs:     1.84 ms      2.10 ms         2.40 ms         2.56 ms         2.76 ms      | Avg Time:   212.82 ms
+Size:  512 | Runs:     3.14 ms      3.50 ms         3.95 ms         4.31 ms         4.68 ms      | Avg Time:   365.68 ms
+Size:  640 | Runs:     5.33 ms      6.08 ms         6.73 ms         7.28 ms         7.78 ms      | Avg Time:   590.14 ms
+Size:  768 | Runs:     9.11 ms     10.46 ms        11.76 ms        13.16 ms        14.38 ms      | Avg Time:  1266.49 ms
+Size:  896 | Runs:    15.89 ms     17.77 ms        19.32 ms        21.11 ms        22.77 ms      | Avg Time:  1612.13 ms
+Size: 1024 | Runs:    26.00 ms     29.14 ms        32.53 ms        35.63 ms        38.64 ms      | Avg Time:  3096.66 ms
+Size: 1152 | Runs:    42.08 ms     46.06 ms        49.77 ms        53.66 ms        57.55 ms      | Avg Time:  3661.25 ms
+Size: 1280 | Runs:    63.37 ms     69.71 ms        75.73 ms        81.85 ms        87.97 ms      | Avg Time:  5966.62 ms
+Size: 1408 | Runs:    95.22 ms    102.89 ms       110.67 ms       118.18 ms       125.94 ms      | Avg Time:  7470.96 ms
+Size: 1536 | Runs:   137.10 ms    148.78 ms       160.81 ms       172.62 ms       184.47 ms      | Avg Time: 11535.70 ms
+Size: 1664 | Runs:   198.33 ms    212.39 ms       226.43 ms       240.29 ms       254.43 ms      | Avg Time: 13811.39 ms
+Size: 1792 | Runs:   273.69 ms    293.73 ms       313.95 ms       333.08 ms       352.50 ms      | Avg Time: 19357.46 ms
+Size: 1920 | Runs:   375.37 ms    399.52 ms       422.43 ms       444.90 ms       467.81 ms      | Avg Time: 22789.25 ms
+Size: 2048 | Runs:   540.14 ms    611.16 ms       681.81 ms       751.26 ms       823.45 ms      | Avg Time: 70731.37 ms
+
+Processes: 13
+Size:  128 | Runs:     0.32 ms      0.50 ms         0.65 ms         0.82 ms         1.01 ms      | Avg Time:   201.45 ms
+Size:  256 | Runs:     1.23 ms      1.37 ms         1.51 ms         1.67 ms         1.89 ms      | Avg Time:   168.51 ms
+Size:  384 | Runs:     2.21 ms      2.49 ms         2.69 ms         2.90 ms         3.18 ms      | Avg Time:   246.04 ms
+Size:  512 | Runs:     3.58 ms      4.04 ms         4.54 ms         5.05 ms         5.60 ms      | Avg Time:   451.52 ms
+Size:  640 | Runs:     6.31 ms      7.01 ms         7.71 ms         8.32 ms         8.93 ms      | Avg Time:   621.89 ms
+Size:  768 | Runs:    10.30 ms     11.68 ms        12.98 ms        14.52 ms        15.81 ms      | Avg Time:  1322.71 ms
+Size:  896 | Runs:    17.40 ms     19.12 ms        20.82 ms        22.41 ms        24.01 ms      | Avg Time:  1575.53 ms
+Size: 1024 | Runs:    27.83 ms     30.89 ms        33.94 ms        37.01 ms        40.05 ms      | Avg Time:  3126.40 ms
+Size: 1152 | Runs:    43.75 ms     47.71 ms        51.58 ms        55.49 ms        59.36 ms      | Avg Time:  3749.22 ms
+Size: 1280 | Runs:    65.54 ms     71.95 ms        78.18 ms        84.70 ms        90.79 ms      | Avg Time:  6138.85 ms
+Size: 1408 | Runs:    98.26 ms    105.90 ms       113.93 ms       121.63 ms       129.28 ms      | Avg Time:  7565.74 ms
+Size: 1536 | Runs:   140.58 ms    152.12 ms       164.35 ms       176.39 ms       188.07 ms      | Avg Time: 11543.71 ms
+Size: 1664 | Runs:   200.26 ms    214.02 ms       227.75 ms       241.08 ms       254.42 ms      | Avg Time: 13084.63 ms
+Size: 1792 | Runs:   272.62 ms    290.80 ms       308.87 ms       327.21 ms       345.21 ms      | Avg Time: 17924.30 ms
+Size: 1920 | Runs:   367.53 ms    389.01 ms       410.29 ms       432.29 ms       454.96 ms      | Avg Time: 21644.72 ms
+Size: 2048 | Runs:   509.53 ms    568.44 ms       627.33 ms       685.65 ms       746.60 ms      | Avg Time: 57962.53 ms
+
+Processes: 14
+Size:  128 | Runs:     0.28 ms      0.48 ms         0.65 ms         0.77 ms         1.00 ms      | Avg Time:   199.46 ms
+Size:  256 | Runs:     1.29 ms      1.58 ms         1.78 ms         2.02 ms         2.17 ms      | Avg Time:   230.18 ms
+Size:  384 | Runs:     2.40 ms      2.72 ms         3.09 ms         3.33 ms         3.55 ms      | Avg Time:   263.74 ms
+Size:  512 | Runs:     4.09 ms      4.57 ms         5.06 ms         5.44 ms         5.89 ms      | Avg Time:   441.74 ms
+Size:  640 | Runs:     6.70 ms      7.50 ms         8.23 ms         8.91 ms         9.69 ms      | Avg Time:   727.58 ms
+Size:  768 | Runs:    11.71 ms     13.00 ms        14.36 ms        15.69 ms        17.03 ms      | Avg Time:  1411.12 ms
+Size:  896 | Runs:    18.66 ms     20.46 ms        22.33 ms        24.04 ms        25.74 ms      | Avg Time:  1673.39 ms
+Size: 1024 | Runs:    29.56 ms     33.00 ms        36.16 ms        39.64 ms        43.07 ms      | Avg Time:  3366.73 ms
+Size: 1152 | Runs:    46.88 ms     50.87 ms        55.00 ms        59.15 ms        63.30 ms      | Avg Time:  3916.55 ms
+Size: 1280 | Runs:    69.79 ms     76.42 ms        82.97 ms        89.51 ms        96.31 ms      | Avg Time:  6444.54 ms
+Size: 1408 | Runs:   104.16 ms    112.16 ms       120.24 ms       128.45 ms       136.35 ms      | Avg Time:  7844.30 ms
+Size: 1536 | Runs:   147.85 ms    160.83 ms       173.33 ms       185.67 ms       197.80 ms      | Avg Time: 12062.16 ms
+Size: 1664 | Runs:   210.93 ms    226.60 ms       241.15 ms       255.42 ms       269.93 ms      | Avg Time: 14197.15 ms
+Size: 1792 | Runs:   287.87 ms    306.82 ms       325.85 ms       345.61 ms       365.65 ms      | Avg Time: 18848.95 ms
+Size: 1920 | Runs:   389.59 ms    414.42 ms       437.32 ms       461.48 ms       486.44 ms      | Avg Time: 23810.95 ms
+Size: 2048 | Runs:   539.92 ms    585.16 ms       636.73 ms       692.48 ms       751.28 ms      | Avg Time: 52585.23 ms
+
+Processes: 15
+Size:  128 | Runs:     0.42 ms      0.65 ms         0.86 ms         1.18 ms         1.34 ms      | Avg Time:   267.12 ms
+Size:  256 | Runs:     1.50 ms      1.68 ms         1.83 ms         1.96 ms         2.14 ms      | Avg Time:   156.81 ms
+Size:  384 | Runs:     2.32 ms      2.61 ms         2.92 ms         3.34 ms         3.62 ms      | Avg Time:   283.69 ms
+Size:  512 | Runs:     4.11 ms      4.55 ms         4.97 ms         5.47 ms         5.97 ms      | Avg Time:   443.96 ms
+Size:  640 | Runs:     6.59 ms      7.29 ms         8.08 ms         8.85 ms         9.49 ms      | Avg Time:   663.59 ms
+Size:  768 | Runs:    10.83 ms     12.13 ms        13.52 ms        15.06 ms        16.46 ms      | Avg Time:  1345.13 ms
+Size:  896 | Runs:    18.22 ms     19.94 ms        21.89 ms        23.65 ms        25.33 ms      | Avg Time:  1682.21 ms
+Size: 1024 | Runs:    29.16 ms     32.51 ms        35.66 ms        38.90 ms        42.15 ms      | Avg Time:  3283.18 ms
+Size: 1152 | Runs:    45.85 ms     49.97 ms        54.20 ms        58.23 ms        62.41 ms      | Avg Time:  3922.72 ms
+Size: 1280 | Runs:    68.37 ms     74.96 ms        81.29 ms        87.83 ms        94.29 ms      | Avg Time:  6226.38 ms
+Size: 1408 | Runs:   101.96 ms    110.34 ms       118.66 ms       126.75 ms       135.27 ms      | Avg Time:  8003.46 ms
+Size: 1536 | Runs:   146.72 ms    160.01 ms       173.19 ms       185.96 ms       198.48 ms      | Avg Time: 12403.66 ms
+Size: 1664 | Runs:   211.79 ms    226.58 ms       241.26 ms       256.18 ms       270.75 ms      | Avg Time: 14184.51 ms
+Size: 1792 | Runs:   288.29 ms    307.51 ms       327.01 ms       346.65 ms       365.77 ms      | Avg Time: 18712.29 ms
+Size: 1920 | Runs:   386.92 ms    410.50 ms       434.19 ms       457.46 ms       481.62 ms      | Avg Time: 22820.90 ms
+Size: 2048 | Runs:   537.14 ms    589.73 ms       644.60 ms       702.09 ms       761.59 ms      | Avg Time: 55596.22 ms
+
+Processes: 16
+Size:  128 | Runs:     0.38 ms      0.70 ms         0.93 ms         1.23 ms         1.51 ms      | Avg Time:   301.92 ms
+Size:  256 | Runs:     1.75 ms      1.99 ms         2.22 ms         2.61 ms         2.80 ms      | Avg Time:   252.99 ms
+Size:  384 | Runs:     3.21 ms      3.68 ms         4.18 ms         4.62 ms         5.06 ms      | Avg Time:   440.26 ms
+Size:  512 | Runs:     5.71 ms      6.42 ms         7.06 ms         7.93 ms         8.58 ms      | Avg Time:   680.64 ms
+Size:  640 | Runs:     9.39 ms     10.24 ms        11.01 ms        11.89 ms        12.76 ms      | Avg Time:   790.13 ms
+Size:  768 | Runs:    14.34 ms     15.72 ms        17.16 ms        18.58 ms        20.09 ms      | Avg Time:  1408.17 ms
+Size:  896 | Runs:    21.88 ms     23.68 ms        25.51 ms        27.35 ms        29.13 ms      | Avg Time:  1735.68 ms
+Size: 1024 | Runs:    33.12 ms     36.33 ms        39.51 ms        42.86 ms        46.11 ms      | Avg Time:  3292.21 ms
+Size: 1152 | Runs:    49.80 ms     54.01 ms        58.03 ms        62.12 ms        66.21 ms      | Avg Time:  3891.65 ms
+Size: 1280 | Runs:    72.09 ms     78.58 ms        85.10 ms        91.69 ms        98.17 ms      | Avg Time:  6233.95 ms
+Size: 1408 | Runs:   105.74 ms    114.02 ms       122.37 ms       130.64 ms       138.80 ms      | Avg Time:  7939.15 ms
+Size: 1536 | Runs:   150.17 ms    162.99 ms       176.07 ms       189.68 ms       202.93 ms      | Avg Time: 12609.03 ms
+Size: 1664 | Runs:   216.43 ms    230.98 ms       245.67 ms       260.42 ms       275.13 ms      | Avg Time: 14182.53 ms
+Size: 1792 | Runs:   292.88 ms    313.12 ms       333.19 ms       353.05 ms       372.20 ms      | Avg Time: 19110.89 ms
+Size: 1920 | Runs:   393.34 ms    416.64 ms       433.52 ms       444.76 ms       455.82 ms      | Avg Time: 16420.31 ms
+Size: 2048 | Runs:   494.21 ms    533.44 ms       572.02 ms       611.07 ms       649.36 ms      | Avg Time: 38479.55 ms
