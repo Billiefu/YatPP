@@ -14,6 +14,8 @@
 * lab5 OpenMP矩阵乘法
 * lab6 Pthreads并行应用
 * lab7 MPI并行应用
+* lab8 并行最短路径
+* lab9 CUDA矩阵转置
 
 更多实验内容将基于课程进度给出其设计及实现
 
