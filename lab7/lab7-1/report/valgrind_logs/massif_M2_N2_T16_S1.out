@@ -1,0 +1,925 @@
+desc: --massif-out-file=valgrind_logs/massif_M2_N2_T16_S1.out --stacks=yes
+cmd: ./heated_plate_valgrind 2 2 16 1
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=1097
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=368
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=30919
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=312
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=44037
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1368
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=50004
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=7680
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=5
+#-----------
+time=58096
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=4776
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=64047
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=5768
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=75213
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1080
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=85601
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1304
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=96243
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1768
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=103638
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1768
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=114429
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1768
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=121232
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1304
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=131274
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1528
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=139080
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1584
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=145944
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1304
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=156805
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1528
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=170528
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1528
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=180851
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=424
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=189775
+mem_heap_B=1184
+mem_heap_extra_B=80
+mem_stacks_B=2600
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=195346
+mem_heap_B=1728
+mem_heap_extra_B=96
+mem_stacks_B=2808
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=203900
+mem_heap_B=2544
+mem_heap_extra_B=120
+mem_stacks_B=3280
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=211021
+mem_heap_B=3632
+mem_heap_extra_B=152
+mem_stacks_B=3760
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=224944
+mem_heap_B=2000
+mem_heap_extra_B=104
+mem_stacks_B=4392
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=237194
+mem_heap_B=1456
+mem_heap_extra_B=88
+mem_stacks_B=5736
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=247161
+mem_heap_B=2816
+mem_heap_extra_B=128
+mem_stacks_B=6288
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=261046
+mem_heap_B=4448
+mem_heap_extra_B=176
+mem_stacks_B=9408
+heap_tree=detailed
+n2: 4448 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4352 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 4352 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 4352 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 4352 0x4900616: allocate_stack (allocatestack.c:429)
+     n1: 4352 0x4900616: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n2: 4352 0x48528D8: parallel_for (in /home/billyfu/YatPC/lab6/libparallel_for.so)
+       n1: 3264 0x1098FD: heated_plate_pthreads (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+        n0: 3264 0x109D55: main (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+       n1: 1088 0x1098BA: heated_plate_pthreads (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+        n0: 1088 0x109D55: main (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+ n0: 96 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=27
+#-----------
+time=273201
+mem_heap_B=1184
+mem_heap_extra_B=80
+mem_stacks_B=7736
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=282042
+mem_heap_B=1728
+mem_heap_extra_B=96
+mem_stacks_B=8184
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=294830
+mem_heap_B=3360
+mem_heap_extra_B=144
+mem_stacks_B=11328
+heap_tree=detailed
+n2: 3360 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3264 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 3264 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 3264 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 3264 0x4900616: allocate_stack (allocatestack.c:429)
+     n1: 3264 0x4900616: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n3: 3264 0x48528D8: parallel_for (in /home/billyfu/YatPC/lab6/libparallel_for.so)
+       n1: 2176 0x10995F: heated_plate_pthreads (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+        n0: 2176 0x109D55: main (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+       n1: 1088 0x1098FD: heated_plate_pthreads (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+        n0: 1088 0x109D55: main (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 96 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=303122
+mem_heap_B=4448
+mem_heap_extra_B=176
+mem_stacks_B=12016
+heap_tree=detailed
+n2: 4448 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4352 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 4352 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 4352 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 4352 0x4900616: allocate_stack (allocatestack.c:429)
+     n1: 4352 0x4900616: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n3: 4352 0x48528D8: parallel_for (in /home/billyfu/YatPC/lab6/libparallel_for.so)
+       n1: 3264 0x10995F: heated_plate_pthreads (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+        n0: 3264 0x109D55: main (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+       n1: 1088 0x1098FD: heated_plate_pthreads (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+        n0: 1088 0x109D55: main (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 96 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=31
+#-----------
+time=314287
+mem_heap_B=1184
+mem_heap_extra_B=80
+mem_stacks_B=9848
+heap_tree=detailed
+n2: 1184 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1088 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 1088 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 1088 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 1088 0x4900616: allocate_stack (allocatestack.c:429)
+     n1: 1088 0x4900616: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n2: 1088 0x48528D8: parallel_for (in /home/billyfu/YatPC/lab6/libparallel_for.so)
+       n1: 1088 0x10995F: heated_plate_pthreads (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+        n0: 1088 0x109D55: main (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+       n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n0: 96 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=32
+#-----------
+time=326450
+mem_heap_B=2000
+mem_heap_extra_B=104
+mem_stacks_B=11064
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=333085
+mem_heap_B=2816
+mem_heap_extra_B=128
+mem_stacks_B=11296
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=340932
+mem_heap_B=4176
+mem_heap_extra_B=168
+mem_stacks_B=14048
+heap_tree=detailed
+n2: 4176 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4080 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 4080 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 4080 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 4080 0x4900616: allocate_stack (allocatestack.c:429)
+     n1: 4080 0x4900616: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n3: 4080 0x48528D8: parallel_for (in /home/billyfu/YatPC/lab6/libparallel_for.so)
+       n1: 2992 0x1099A2: heated_plate_pthreads (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+        n0: 2992 0x109D55: main (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+       n1: 1088 0x10995F: heated_plate_pthreads (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+        n0: 1088 0x109D55: main (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+       n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n0: 96 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=350864
+mem_heap_B=2816
+mem_heap_extra_B=128
+mem_stacks_B=12352
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=360792
+mem_heap_B=1184
+mem_heap_extra_B=80
+mem_stacks_B=12728
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=368538
+mem_heap_B=2000
+mem_heap_extra_B=104
+mem_stacks_B=13368
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=378944
+mem_heap_B=3632
+mem_heap_extra_B=152
+mem_stacks_B=16288
+heap_tree=detailed
+n2: 3632 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3536 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 3536 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 3536 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 3536 0x4900616: allocate_stack (allocatestack.c:429)
+     n1: 3536 0x4900616: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n3: 3536 0x48528D8: parallel_for (in /home/billyfu/YatPC/lab6/libparallel_for.so)
+       n1: 2448 0x109A23: heated_plate_pthreads (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+        n0: 2448 0x109D55: main (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+       n1: 1088 0x1099A2: heated_plate_pthreads (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+        n0: 1088 0x109D55: main (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+       n0: 0 in 3 places, all below massif's threshold (1.00%)
+ n0: 96 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=39
+#-----------
+time=390599
+mem_heap_B=3904
+mem_heap_extra_B=160
+mem_stacks_B=14920
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=398392
+mem_heap_B=1184
+mem_heap_extra_B=80
+mem_stacks_B=14960
+heap_tree=detailed
+n2: 1184 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1088 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 1088 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 1088 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 1088 0x4900616: allocate_stack (allocatestack.c:429)
+     n1: 1088 0x4900616: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n2: 1088 0x48528D8: parallel_for (in /home/billyfu/YatPC/lab6/libparallel_for.so)
+       n1: 1088 0x109A23: heated_plate_pthreads (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+        n0: 1088 0x109D55: main (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+       n0: 0 in 4 places, all below massif's threshold (1.00%)
+ n0: 96 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=41
+#-----------
+time=406164
+mem_heap_B=1184
+mem_heap_extra_B=80
+mem_stacks_B=15616
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=412814
+mem_heap_B=2544
+mem_heap_extra_B=120
+mem_stacks_B=15928
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=422420
+mem_heap_B=3632
+mem_heap_extra_B=152
+mem_stacks_B=19008
+heap_tree=detailed
+n2: 3632 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3536 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 3536 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 3536 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 3536 0x4900616: allocate_stack (allocatestack.c:429)
+     n1: 3536 0x4900616: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n3: 3536 0x48528D8: parallel_for (in /home/billyfu/YatPC/lab6/libparallel_for.so)
+       n1: 2448 0x109A9E: heated_plate_pthreads (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+        n0: 2448 0x109D55: main (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+       n1: 1088 0x109A23: heated_plate_pthreads (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+        n0: 1088 0x109D55: main (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+       n0: 0 in 4 places, all below massif's threshold (1.00%)
+ n0: 96 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=44
+#-----------
+time=434169
+mem_heap_B=2816
+mem_heap_extra_B=128
+mem_stacks_B=19256
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=447485
+mem_heap_B=1456
+mem_heap_extra_B=88
+mem_stacks_B=18272
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=458558
+mem_heap_B=2816
+mem_heap_extra_B=128
+mem_stacks_B=18816
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=470703
+mem_heap_B=4448
+mem_heap_extra_B=176
+mem_stacks_B=22048
+heap_tree=detailed
+n2: 4448 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4352 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 4352 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 4352 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 4352 0x4900616: allocate_stack (allocatestack.c:429)
+     n1: 4352 0x4900616: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n3: 4352 0x48528D8: parallel_for (in /home/billyfu/YatPC/lab6/libparallel_for.so)
+       n1: 3264 0x109AE1: heated_plate_pthreads (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+        n0: 3264 0x109D55: main (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+       n1: 1088 0x109A9E: heated_plate_pthreads (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+        n0: 1088 0x109D55: main (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+       n0: 0 in 5 places, all below massif's threshold (1.00%)
+ n0: 96 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=48
+#-----------
+time=480652
+mem_heap_B=1184
+mem_heap_extra_B=80
+mem_stacks_B=18848
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=486170
+mem_heap_B=1184
+mem_heap_extra_B=80
+mem_stacks_B=20256
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=487271
+mem_heap_B=1184
+mem_heap_extra_B=80
+mem_stacks_B=20256
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=488377
+mem_heap_B=1728
+mem_heap_extra_B=96
+mem_stacks_B=20344
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=489474
+mem_heap_B=1728
+mem_heap_extra_B=96
+mem_stacks_B=20728
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=490590
+mem_heap_B=1728
+mem_heap_extra_B=96
+mem_stacks_B=20888
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=491687
+mem_heap_B=1728
+mem_heap_extra_B=96
+mem_stacks_B=21056
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=492787
+mem_heap_B=1728
+mem_heap_extra_B=96
+mem_stacks_B=21216
+heap_tree=detailed
+n2: 1728 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1632 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 1632 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 1632 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 1632 0x4900616: allocate_stack (allocatestack.c:429)
+     n1: 1632 0x4900616: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n3: 1632 0x48528D8: parallel_for (in /home/billyfu/YatPC/lab6/libparallel_for.so)
+       n1: 1088 0x109AE1: heated_plate_pthreads (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+        n0: 1088 0x109D55: main (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+       n1: 544 0x109B4B: heated_plate_pthreads (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+        n0: 544 0x109D55: main (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+       n0: 0 in 6 places, all below massif's threshold (1.00%)
+ n0: 96 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=56
+#-----------
+time=493962
+mem_heap_B=2000
+mem_heap_extra_B=104
+mem_stacks_B=20896
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=495073
+mem_heap_B=2000
+mem_heap_extra_B=104
+mem_stacks_B=21320
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=496175
+mem_heap_B=2272
+mem_heap_extra_B=112
+mem_stacks_B=21576
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=497281
+mem_heap_B=2272
+mem_heap_extra_B=112
+mem_stacks_B=21504
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=498397
+mem_heap_B=2272
+mem_heap_extra_B=112
+mem_stacks_B=21664
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=499549
+mem_heap_B=2544
+mem_heap_extra_B=120
+mem_stacks_B=21040
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=500679
+mem_heap_B=2816
+mem_heap_extra_B=128
+mem_stacks_B=23640
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=501785
+mem_heap_B=2816
+mem_heap_extra_B=128
+mem_stacks_B=21536
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=502520
+mem_heap_B=3088
+mem_heap_extra_B=136
+mem_stacks_B=23808
+heap_tree=detailed
+n2: 3088 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2992 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 2992 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 2992 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 2992 0x4900616: allocate_stack (allocatestack.c:429)
+     n1: 2992 0x4900616: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n3: 2992 0x48528D8: parallel_for (in /home/billyfu/YatPC/lab6/libparallel_for.so)
+       n1: 1904 0x109B4B: heated_plate_pthreads (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+        n0: 1904 0x109D55: main (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+       n1: 1088 0x109AE1: heated_plate_pthreads (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+        n0: 1088 0x109D55: main (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+       n0: 0 in 6 places, all below massif's threshold (1.00%)
+ n0: 96 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=65
+#-----------
+time=503636
+mem_heap_B=3088
+mem_heap_extra_B=136
+mem_stacks_B=23960
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=504779
+mem_heap_B=3088
+mem_heap_extra_B=136
+mem_stacks_B=21520
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=505894
+mem_heap_B=3360
+mem_heap_extra_B=144
+mem_stacks_B=21848
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=506643
+mem_heap_B=3632
+mem_heap_extra_B=152
+mem_stacks_B=24128
+heap_tree=detailed
+n2: 3632 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3536 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 3536 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 3536 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 3536 0x4900616: allocate_stack (allocatestack.c:429)
+     n1: 3536 0x4900616: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n3: 3536 0x48528D8: parallel_for (in /home/billyfu/YatPC/lab6/libparallel_for.so)
+       n1: 2448 0x109B4B: heated_plate_pthreads (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+        n0: 2448 0x109D55: main (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+       n1: 1088 0x109AE1: heated_plate_pthreads (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+        n0: 1088 0x109D55: main (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+       n0: 0 in 6 places, all below massif's threshold (1.00%)
+ n0: 96 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=69
+#-----------
+time=507759
+mem_heap_B=3632
+mem_heap_extra_B=152
+mem_stacks_B=24280
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=508902
+mem_heap_B=3632
+mem_heap_extra_B=152
+mem_stacks_B=21840
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=510017
+mem_heap_B=3904
+mem_heap_extra_B=160
+mem_stacks_B=22168
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=510766
+mem_heap_B=4176
+mem_heap_extra_B=168
+mem_stacks_B=24448
+heap_tree=peak
+n2: 4176 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4080 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 4080 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 4080 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 4080 0x4900616: allocate_stack (allocatestack.c:429)
+     n1: 4080 0x4900616: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n3: 4080 0x48528D8: parallel_for (in /home/billyfu/YatPC/lab6/libparallel_for.so)
+       n1: 2992 0x109B4B: heated_plate_pthreads (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+        n0: 2992 0x109D55: main (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+       n1: 1088 0x109AE1: heated_plate_pthreads (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+        n0: 1088 0x109D55: main (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+       n0: 0 in 6 places, all below massif's threshold (1.00%)
+ n0: 96 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=73
+#-----------
+time=511882
+mem_heap_B=4176
+mem_heap_extra_B=168
+mem_stacks_B=24600
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=513025
+mem_heap_B=4176
+mem_heap_extra_B=168
+mem_stacks_B=22160
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=514159
+mem_heap_B=4448
+mem_heap_extra_B=176
+mem_stacks_B=22296
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=515260
+mem_heap_B=4176
+mem_heap_extra_B=168
+mem_stacks_B=22424
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=516378
+mem_heap_B=3632
+mem_heap_extra_B=152
+mem_stacks_B=22312
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=517475
+mem_heap_B=3088
+mem_heap_extra_B=136
+mem_stacks_B=22280
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=518572
+mem_heap_B=2544
+mem_heap_extra_B=120
+mem_stacks_B=22152
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=519677
+mem_heap_B=2000
+mem_heap_extra_B=104
+mem_stacks_B=22496
+heap_tree=empty
+#-----------
+snapshot=81
+#-----------
+time=520778
+mem_heap_B=1728
+mem_heap_extra_B=96
+mem_stacks_B=22432
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=521879
+mem_heap_B=1456
+mem_heap_extra_B=88
+mem_stacks_B=22552
+heap_tree=detailed
+n2: 1456 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1360 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 1360 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 1360 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 1360 0x4900616: allocate_stack (allocatestack.c:429)
+     n1: 1360 0x4900616: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n2: 1360 0x48528D8: parallel_for (in /home/billyfu/YatPC/lab6/libparallel_for.so)
+       n1: 1360 0x109B4B: heated_plate_pthreads (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+        n0: 1360 0x109D55: main (in /home/billyfu/YatPC/lab6/heated_plate_valgrind)
+       n0: 0 in 7 places, all below massif's threshold (1.00%)
+ n0: 96 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=83
+#-----------
+time=523005
+mem_heap_B=1184
+mem_heap_extra_B=80
+mem_stacks_B=22752
+heap_tree=empty
+#-----------
+snapshot=84
+#-----------
+time=524108
+mem_heap_B=1184
+mem_heap_extra_B=80
+mem_stacks_B=22752
+heap_tree=empty
+#-----------
+snapshot=85
+#-----------
+time=525206
+mem_heap_B=1184
+mem_heap_extra_B=80
+mem_stacks_B=23560
+heap_tree=empty
+#-----------
+snapshot=86
+#-----------
+time=526307
+mem_heap_B=5280
+mem_heap_extra_B=88
+mem_stacks_B=21608
+heap_tree=empty
+#-----------
+snapshot=87
+#-----------
+time=527412
+mem_heap_B=5184
+mem_heap_extra_B=40
+mem_stacks_B=21272
+heap_tree=empty
+#-----------
+snapshot=88
+#-----------
+time=528517
+mem_heap_B=5184
+mem_heap_extra_B=40
+mem_stacks_B=21240
+heap_tree=empty
+#-----------
+snapshot=89
+#-----------
+time=529616
+mem_heap_B=5184
+mem_heap_extra_B=40
+mem_stacks_B=21104
+heap_tree=empty
+#-----------
+snapshot=90
+#-----------
+time=530718
+mem_heap_B=1088
+mem_heap_extra_B=32
+mem_stacks_B=21008
+heap_tree=empty
+#-----------
+snapshot=91
+#-----------
+time=531817
+mem_heap_B=816
+mem_heap_extra_B=24
+mem_stacks_B=21096
+heap_tree=empty
+#-----------
+snapshot=92
+#-----------
+time=532918
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=20992
+heap_tree=detailed
+n1: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 0 in 6 places, all below massif's threshold (1.00%)
